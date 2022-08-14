@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import styled from "styled-components";
+import { Link } from "react-router-dom";
+
 import {
   ShoppingCartOutlined,
   SearchOutlined,
   FavoriteBorderOutlined,
 } from "@material-ui/icons";
+
 
 const Info = styled.div`
   opacity: 0;
@@ -18,7 +21,7 @@ const Info = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  transition:  all 1s ease;
+  transition: all 1s ease;
   cursor: pointer;
 `;
 
@@ -77,7 +80,9 @@ const Product = (props) => {
           <ShoppingCartOutlined />
         </Icon>
         <Icon>
-          <SearchOutlined />
+          <Link to={`/product/${props.item._id}`}>
+            <SearchOutlined />
+          </Link>
         </Icon>
         <Icon>
           <FavoriteBorderOutlined />

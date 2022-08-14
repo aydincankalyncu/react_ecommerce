@@ -33,22 +33,26 @@ export const categories = [
     {
         id: 1,
         img:"https://images6.alphacoders.com/637/thumb-1920-637352.jpg",
-        title: "JOHN WICK 1"
+        title: "JOHN WICK 1",
+        category:"portre"
     },
     {
         id: 2,
-        img:"https://initiate.alphacoders.com/images/831/cropped-1920-1080-831125.jpg?2865",
-        title: "JOHN WICK 2"
+        img:"https://images6.alphacoders.com/637/thumb-1920-637352.jpg",
+        title: "JOHN WICK 2",
+        category:"tshirt"
     },
     {
         id: 3,
-        img:"https://initiate.alphacoders.com/images/831/cropped-1920-1080-831123.jpg?8851",
-        title: "JOHN WICK 3"
+        img:"https://images6.alphacoders.com/637/thumb-1920-637352.jpg",
+        title: "JOHN WICK 3",
+        category:"portre"
     },
     {
         id: 4,
-        img:"https://initiate.alphacoders.com/images/105/cropped-1920-1080-1051994.jpg?788",
-        title: "JOHN WICK 4 (COMING SOON)"
+        img:"https://images6.alphacoders.com/637/thumb-1920-637352.jpg",
+        title: "JOHN WICK 4 (COMING SOON)",
+        category:"portre"
     }
 ]
 
